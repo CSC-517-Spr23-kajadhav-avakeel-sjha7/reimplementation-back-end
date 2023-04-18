@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :password_digest
       t.integer :role_id
-      t.string :fullname
+      t.string :FullName
       t.string :email
       t.integer :parent_id
       t.string :mru_directory_path
